@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html, body {
+  background-color: #fff;
+  margin: 10px;
+}
+
+.healthcare-dashboard {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #f6f9ff;
+}
+
+.healthcare-dashboard .sidebar, .healthcare-dashboard .calender {
+  background-color: #f6f9ff;
+  border: none;
+}

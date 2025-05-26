@@ -1,0 +1,49 @@
+.sidebar {
+  padding: 30px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3a86ff;
+  margin-bottom: 40px;
+}
+
+.logo span {
+  color: #000;
+}
+
+ul .mini-heading {
+  color: #e1e5ea;
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+ul .nav-items {
+  display: flex;
+  gap: 8px;
+  padding: 8px 10px;
+  color: #b7bdc2;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.nav-items.active {
+  color: #797b98;
+  font-weight: bold;
+}
+
+.nav-items:hover {
+  color: #7c8082;
+}
+
+.sidebar .links-setting {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+
+.sidebar p {
+  margin-top: 8rem;
+}

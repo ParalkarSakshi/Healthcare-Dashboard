@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 8px 18px;
+  border-radius: 18px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.search-bar, .dropdown, .dashboard {
+  display: flex;
+  align-items: center;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  margin-left: 8px;
+  padding: 5px;
+  width: 500px;
+}
+
+.dashboard {
+  justify-content: space-between;
+}

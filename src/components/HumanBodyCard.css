@@ -1,0 +1,117 @@
+.human-body-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.body-card {
+  display: flex;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+
+.human-image, .human-organs {
+  flex: 1;   
+  gap: 20px;     
+}
+
+.human-image {
+  position: relative;
+  background-color: #f6faff;
+  border-radius: 24px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  display: flex;
+  align-items: center;
+}
+
+.human-image img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.human-organs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px;
+}
+
+.highlight-box {
+  position: absolute;
+  padding: 6px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.heart {
+  top: 35%;
+  left: 55%;
+  background-color: rgb(43, 43, 172);
+  color: #fff;
+}
+
+.leg {
+  bottom: 35%;
+  left: 15%;
+  background-color: rgb(76, 144, 232);
+  color: #4c20b2;
+}
+
+.organ {
+  background-color: #f5f7fa;
+  padding: 16px;
+  border-radius: 12px;
+  width: 180px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  color: #333;
+  transition: transform 0.2s;
+  height: auto; 
+}
+
+.organ-name {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.organ-name span {
+  font-size: 40px;
+}
+
+.organ .date {
+  font-size: 12px;
+}
+
+.bar {
+  height: 4px;
+  width: 100%;
+  background-color: #ccc; 
+  position: relative;
+  border-radius: 2px;
+}
+
+.inner-bar {
+  height: 4px;
+  width: 70%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 2px;
+}
+
+.inner-bar .bar-1 {
+  background-color: rgb(74, 6, 6);
+}
+
+.inner-bar .bar-2 {
+  background-color: rgb(35, 138, 202);
+}
+
+.inner-bar .bar-3 {
+  background-color: rgb(216, 52, 20);
+}

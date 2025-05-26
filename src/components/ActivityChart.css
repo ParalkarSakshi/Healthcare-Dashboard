@@ -1,0 +1,47 @@
+.activity {
+  background: #f6faff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.activity-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activity-para, .bar span {
+  opacity: 0.5;
+}
+
+.bar-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.activity-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bar-fill {
+  width: 6px;
+  background: #3a86ff;
+  border-radius: 4px;
+  margin-bottom: 6px;
+}
+
+.bar-fills {
+  width: 6px;
+  background: #babec5;
+  border-radius: 4px;
+  margin-bottom: 6px;
+}
+
+.bar-fill-container {
+  display: flex;
+  gap: 5px;
+  align-items: end;
+}
